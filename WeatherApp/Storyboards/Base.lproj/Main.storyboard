@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,19 +13,19 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="WeatherViewController" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fwi-Ck-AF3">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <color key="backgroundColor" red="0.56470588235294117" green="0.8666666666666667" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E3H-UX-RDV">
-                                <rect key="frame" x="0.0" y="646" width="414" height="216"/>
+                                <rect key="frame" x="0.0" y="594" width="390" height="216"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0°C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9MY-dC-ggz">
-                                <rect key="frame" x="107" y="284" width="200" height="100"/>
+                                <rect key="frame" x="95" y="284" width="200" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="PPM-r0-gIK"/>
                                     <constraint firstAttribute="height" constant="100" id="QxH-dg-bAh"/>
@@ -40,17 +40,18 @@
                         <constraints>
                             <constraint firstItem="9MY-dC-ggz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="240" id="07d-ri-4Ho"/>
                             <constraint firstItem="E3H-UX-RDV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1Z2-ce-BuD"/>
+                            <constraint firstItem="fwi-Ck-AF3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CXM-V9-8hl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E3H-UX-RDV" secondAttribute="trailing" id="Rf6-76-506"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="E3H-UX-RDV" secondAttribute="bottom" id="TdP-2a-iPM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fwi-Ck-AF3" secondAttribute="trailing" id="a5x-vy-ZxG"/>
                             <constraint firstItem="9MY-dC-ggz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cOy-cy-dbi"/>
-                            <constraint firstItem="fwi-Ck-AF3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="eLc-gm-PkQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="fwi-Ck-AF3" secondAttribute="top" constant="44" id="jPn-8g-3Kp"/>
-                            <constraint firstItem="fwi-Ck-AF3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wT1-YO-RRv"/>
+                            <constraint firstItem="fwi-Ck-AF3" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="fWt-Jj-waR"/>
+                            <constraint firstAttribute="top" secondItem="fwi-Ck-AF3" secondAttribute="top" id="jNY-im-Qh6"/>
+                            <constraint firstAttribute="trailing" secondItem="fwi-Ck-AF3" secondAttribute="trailing" id="lbO-8R-C5F"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="cityPicker" destination="E3H-UX-RDV" id="1kc-oO-pFQ"/>
+                        <outlet property="skyView" destination="fwi-Ck-AF3" id="LhK-X0-1rf"/>
                         <outlet property="temperatureLabel" destination="9MY-dC-ggz" id="T16-cg-rsa"/>
                     </connections>
                 </viewController>

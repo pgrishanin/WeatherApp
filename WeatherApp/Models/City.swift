@@ -33,6 +33,18 @@ struct City {
                 longitude: -73.935242,
                 timezone: "GMT-5"
             ),
+            City(
+                name: "Beijing",
+                latitude: 39.916668,
+                longitude: 116.383331,
+                timezone: "GMT+8"
+            ),
+            City(
+                name: "Canberra",
+                latitude: -35.282001,
+                longitude: 149.128998,
+                timezone: "GMT+11"
+            ),
         ]
     }
 }

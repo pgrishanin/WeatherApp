@@ -11,6 +11,7 @@ class WeatherViewController: UIViewController {
 
     @IBOutlet var cityPicker: UIPickerView!
     @IBOutlet var temperatureLabel: UILabel!
+    @IBOutlet var skyView: UIView!
     
     private let cities = City.cityList()
     
@@ -48,7 +49,17 @@ class WeatherViewController: UIViewController {
            calendar.timeZone = timeZone
         }
         let hour = calendar.component(.hour, from: date)
-        print(hour)
+        
+        UIView.animate(
+            withDuration: 0.6,
+            delay: 0.0,
+            options:[],
+            animations: {
+                self.skyView.backgroundColor = AppSettingsService.shared.getSkyColors(byHour: hour)
+            },
+            completion:nil
+        )
+        
     }
 }
 
