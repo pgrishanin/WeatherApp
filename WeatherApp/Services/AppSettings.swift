@@ -8,13 +8,6 @@
 import UIKit
 import MapKit
 
-enum DayTime {
-    case day
-    case evening
-    case night
-    case morning
-}
-
 class AppSettingsService {
     static let shared = AppSettingsService()
     
