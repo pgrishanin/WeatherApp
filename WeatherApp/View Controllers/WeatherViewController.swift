@@ -34,7 +34,15 @@ class WeatherViewController: UIViewController {
             longitude: city.longitude
         ) { weather in
             DispatchQueue.main.async {
-                self.temperatureLabel.text = "\(weather.t ?? 0)°C"
+                UIView.transition(
+                    with: self.temperatureLabel,
+                    duration: 0.3,
+                    options: [.transitionCrossDissolve],
+                    animations: {
+                        self.temperatureLabel.text = "\(weather.t ?? 0)°C"
+                    },
+                    completion: nil
+                )
             }
         } onError: { error in
             print(error)

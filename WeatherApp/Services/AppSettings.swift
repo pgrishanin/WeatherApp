@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MapKit
 
 enum DayTime {
     case day
@@ -23,15 +24,15 @@ class AppSettingsService {
         
         switch byHour {
         case 20...24:
-            return UIColor(red: 43/255, green: 47/255, blue: 119/255, alpha: 1)
+            return UIColor(red: 0.168, green: 0.184, blue: 0.466, alpha: 1)
         case 0...5:
-            return UIColor(red: 43/255, green: 47/255, blue: 119/255, alpha: 1)
+            return UIColor(red: 0.168, green: 0.184, blue: 0.466, alpha: 1)
         case 6...8:
-            return UIColor(red: 174/255, green: 237/255, blue: 255/255, alpha: 1)
+            return UIColor(red: 0.682, green: 0.929, blue: 1, alpha: 1)
         case 17...19:
-            return UIColor(red: 133/255, green: 89/255, blue: 136/255, alpha: 1)
+            return UIColor(red: 0.521, green: 0.349, blue: 0.533, alpha: 1)
         default:
-            return UIColor(red: 0, green: 189/255, blue: 254/255, alpha: 1)
+            return UIColor(red: 0, green: 0.741, blue: 0.996, alpha: 1)
         }
     }
 }

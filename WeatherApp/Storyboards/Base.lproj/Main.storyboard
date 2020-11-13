@@ -25,7 +25,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0°C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9MY-dC-ggz">
-                                <rect key="frame" x="95" y="284" width="200" height="100"/>
+                                <rect key="frame" x="95" y="282" width="200" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="PPM-r0-gIK"/>
                                     <constraint firstAttribute="height" constant="100" id="QxH-dg-bAh"/>
@@ -38,7 +38,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="9MY-dC-ggz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="240" id="07d-ri-4Ho"/>
                             <constraint firstItem="E3H-UX-RDV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1Z2-ce-BuD"/>
                             <constraint firstItem="fwi-Ck-AF3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CXM-V9-8hl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E3H-UX-RDV" secondAttribute="trailing" id="Rf6-76-506"/>
@@ -46,6 +45,7 @@
                             <constraint firstItem="9MY-dC-ggz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cOy-cy-dbi"/>
                             <constraint firstItem="fwi-Ck-AF3" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="fWt-Jj-waR"/>
                             <constraint firstAttribute="top" secondItem="fwi-Ck-AF3" secondAttribute="top" id="jNY-im-Qh6"/>
+                            <constraint firstItem="9MY-dC-ggz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="238" id="k6f-tD-MJg"/>
                             <constraint firstAttribute="trailing" secondItem="fwi-Ck-AF3" secondAttribute="trailing" id="lbO-8R-C5F"/>
                         </constraints>
                     </view>
@@ -57,7 +57,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="100.44642857142857"/>
+            <point key="canvasLocation" x="135.38461538461539" y="100.23696682464454"/>
         </scene>
     </scenes>
     <resources>

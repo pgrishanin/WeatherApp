@@ -32,6 +32,7 @@
 		E9B7CBC8255E9EFE001CC991 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		E9B7CBCD255EBCD9001CC991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9B7CBD0255EC28F001CC991 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		E9B7CBD4255ED14D001CC991 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,7 @@
 			children = (
 				E9B7CB9E255E91F2001CC991 /* WeatherApp */,
 				E9B7CB9D255E91F2001CC991 /* Products */,
+				E9B7CBD3255ED14D001CC991 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +127,14 @@
 				E9B7CBD0255EC28F001CC991 /* AppSettings.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		E9B7CBD3255ED14D001CC991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9B7CBD4255ED14D001CC991 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
