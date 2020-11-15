@@ -52,7 +52,7 @@
                                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rain" translatesAutoresizingMaskIntoConstraints="NO" id="dEK-KW-iIZ">
                                                 <rect key="frame" x="71" y="11" width="169" height="158"/>
                                             </imageView>
-                                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sun" translatesAutoresizingMaskIntoConstraints="NO" id="Nku-Vl-ArT">
+                                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SunDay" translatesAutoresizingMaskIntoConstraints="NO" id="Nku-Vl-ArT">
                                                 <rect key="frame" x="79.333333333333343" y="14" width="152" height="152"/>
                                             </imageView>
                                         </subviews>
@@ -178,7 +178,7 @@
         <image name="Moon" width="122" height="140"/>
         <image name="Rain" width="169" height="158"/>
         <image name="Snow" width="169" height="183"/>
-        <image name="Sun" width="152" height="152"/>
+        <image name="SunDay" width="152" height="152"/>
         <image name="arrow.clockwise" catalog="system" width="115" height="128"/>
     </resources>
 </document>
