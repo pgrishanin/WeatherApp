@@ -7,7 +7,7 @@
 
 struct Weather: Decodable {
     let t: Int?
-    let tcc: String?
+    let tcc: Int?
     let csnow: Int?
     let crain: Int?
 }
